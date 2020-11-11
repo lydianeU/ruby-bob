@@ -1,6 +1,6 @@
 class Bob
   def hey(remark)
-    if remark.empty?
+    if remark.strip.empty?
       'Fine. Be that way!'
     elsif remark == remark.upcase && remark =~ /[a-zA-z]/
       'Whoa, chill out!'
