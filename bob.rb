@@ -1,9 +1,9 @@
 class Bob
-
-
-
   def hey(remark)
-    'Whatever.'
+    if remark == remark.upcase
+      'Whoa, chill out!'
+    else
+      'Whatever.'
+    end
   end
-
 end
